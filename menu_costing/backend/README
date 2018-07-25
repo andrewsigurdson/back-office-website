@@ -1,0 +1,20 @@
+Output is sent to output.json. It looks like this:
+
+{
+  "menu_items": [
+    {
+      "name": "Cheeseburger",
+      "total_material_cost": 2.99,
+      "twenty_five_p_menu_price": 11.98,
+      "thirty_p_menu_price": 8.98,
+      "current_markup_percent": 30.0
+    },
+    {
+      "name": "Chicken Sandwich",
+      "total_material_cost": 1.85,
+      "twenty_five_p_menu_price": 7.42,
+      "thirty_p_menu_price": 5.56,
+      "current_markup_percent": 15.0
+    }
+  ]
+}
