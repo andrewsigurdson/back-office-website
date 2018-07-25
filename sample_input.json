@@ -1,0 +1,81 @@
+{
+	"ingredients": [{
+			"name": "ketchup",
+			"bulk_total_price": 17.82,
+			"bulk_size": 16,
+			"bulk_individual_size": 14,
+			"bulk_unit_measurement": "oz"
+		},
+		{
+			"name": "bun",
+			"bulk_total_price": 34.15,
+			"bulk_size": 96,
+			"bulk_individual_size": 1,
+			"bulk_unit_measurement": "unit"
+		},
+		{
+			"name": "ground beef",
+			"bulk_total_price": 90.45,
+			"bulk_size": 4,
+			"bulk_individual_size": 5,
+			"bulk_unit_measurement": "pound"
+		},
+		{
+			"name": "chicken breast patty",
+			"bulk_total_price": 111.65,
+			"bulk_size": 100,
+			"bulk_individual_size": 1,
+			"bulk_unit_measurement": "unit"
+		},
+		{
+			"name": "american cheese",
+			"bulk_total_price": 53.95,
+			"bulk_size": 12,
+			"bulk_individual_size": 6.7,
+			"bulk_unit_measurement": "oz"
+		}
+	],
+	"menu": [{
+			"name": "Cheeseburger",
+			"asking_price": 10.00,
+			"ingredients": [{
+					"name": "bun",
+					"quantity": 1
+				},
+				{
+					"name": "ground beef",
+					"quantity": 0.5
+				},
+				{
+					"name": "american cheese",
+					"quantity": 0.5
+				},
+				{
+					"name": "ketchup",
+					"quantity": 0.5
+				}
+			]
+		},
+		{
+			"name": "Chicken Sandwich",
+			"asking_price": 12.75,
+			"ingredients": [{
+					"name": "bun",
+					"quantity": 1
+				},
+				{
+					"name": "chicken breast patty",
+					"quantity": 1
+				},
+				{
+					"name": "american cheese",
+					"quantity": 0.5
+				},
+				{
+					"name": "ketchup",
+					"quantity": 0.5
+				}
+			]
+		}
+	]
+}
