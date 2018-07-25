@@ -1,4 +1,24 @@
-Output is sent to output.json. It looks like this:
+Input currently comes from sample_input.json. 
+That file must be written so that ingredient names in menu items exactly match existing ingredients in the ingredients dictionary. 
+Units must be identical between the instance of an ingredient in the bulk section and the and recipe section.
+
+Example:
+
+			"name": "ketchup",
+			"bulk_total_price": 17.82,      (this is the total bulk order price in dollars)
+			"bulk_size": 16,                (this is how many bottles in a bulk order, for instance)
+			"bulk_individual_size": 14,     (this is the size of each bottle, in bulk_unit_measurement) (i.e. 14 oz)
+			"bulk_unit_measurement": "oz"   (this is how it is measured. must be the same in the recipe section vvvvv)
+      
+      "name": "Cheeseburger",
+			"asking_price": 10.00,
+			"ingredients": [{
+				{
+					"name": "ketchup",          (must match the above name definition "ketchup" exactly)
+					"quantity": 0.5             (this must be in ounces)
+				}
+
+Output is sent to output.json. The output currently looks like this:
 
 {
   "menu_items": [
